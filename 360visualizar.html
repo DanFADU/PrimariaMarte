@@ -1,0 +1,22 @@
+<html>
+<html>
+  <head>
+    <title>Hola, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! A-Frame">
+    <!-- Importar la librería A-Frame -->
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <!-- Declarar los assets (materiales que usarás) -->
+    <a-assets>
+      <!-- Imagen 360 con un identificador único -->
+      <img id="MySky" crossorigin src="https://i.postimg.cc/q7Gdh7BB/Escuela.jpg">
+    </a-assets>
+
+    <!-- Crear la escena de A-Frame -->
+    <a-scene>
+      <!-- Declarar un "cielo" y tapizarlo con la imagen 360 -->
+      <a-sky src="#MySky"></a-sky>
+    </a-scene>
+  </body>
+</html>
